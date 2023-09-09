@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <section class="top-section">
+    <div class="balance">
+      <p class="my-balance-label">
+        My balance
+      </p>
+      <h2 class="my-balance-value">
+        $921.48
+      </h2>
+    </div>
+    <img src="images/logo.svg" alt="logo icon" class="logo">
+  </section>
+  <section class="bottom-section">
+    <h2 class="spending-label">
+      Spending - Last 7 days
+    </h2>
+    <div class="chart">
+      <div class="day-1 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-1"></div>
+        <p class="day-label">Mon</p>
+      </div>
+      <div class="day-2 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-2"></div>
+        <p class="day-label">Tue</p>
+      </div>
+      <div class="day-3 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-3"></div>
+        <p class="day-label">Wed</p>
+      </div>
+      <div class="day-4 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-4"></div>
+        <p class="day-label">Thu</p>
+      </div>
+      <div class="day-5 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-5"></div>
+        <p class="day-label">Fri</p>
+      </div>
+      <div class="day-6 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-6"></div>
+        <p class="day-label">Sat</p>
+      </div>
+      <div class="day-7 hidden-amount">
+        <div class="amount-div"></div>
+        <div class="chart-column chart-day-7"></div>
+        <p class="day-label">Sun</p>
+      </div>
+    </div>
+    <div class="bottom-div">
+      <div class="total-div">
+        <p class="total-label">Total this month</p>
+        <h1 class="total-value">$478.33</h1>
+      </div>
+      <div class="percent-div">
+        <p class="percent-value">+2.4%</p>
+        <p class="percent-label">from last month</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
